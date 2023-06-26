@@ -1,0 +1,165 @@
+body{
+    background-image: url(../Images/lunch.jpg);
+    background-color: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    background-attachment: fixed;
+    justify-content: center;
+    overflow: hidden;
+}
+header img{
+    height: 90px;
+    width: 95px;
+}
+main{
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(252, 255, 215);
+    background-position: bottom;
+    background-size: cover;
+    background: padding 0%;
+
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    
+}
+header *{
+    display: inline;
+    
+}
+header ul{
+    margin: 30px;
+}
+header li{
+    margin: 30px;
+    padding: 4px;
+   
+    
+}
+header li a{
+    color:black;
+    text-decoration: double;
+    
+   
+}
+h1{
+    font-size: 7;
+    color:  #353733f8;
+    font-style: inherit;
+    overflow: hidden;
+   
+    
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  :root {
+    --colour-one: #ffd1b7;
+    --colour-two: #fee4d4;
+    --colour-three: #fdb493;
+    --colour-four: #fb966f;
+    --colour-five: #f45f34;
+    --colour-six: #302825;
+    --colour-seven: #a69f9c;
+    --colour-eight: #707e8d;
+  }
+  .login_form {
+    position: relative;
+    border-bottom: 3px solid var(--colour-four);
+    border-right: 3px solid var(--colour-four);
+    background: rgb(145, 145, 145);
+    height: 400px;
+    width: 700px;
+    box-shadow: 10px 10px 6px 2px rgba(58, 57, 57, 0.6);
+    overflow: hidden;
+    
+  }
+  .details {
+    position: relative;
+    background: var(--colour-two);
+    background-color: hsl(0, 0%, 19%);
+    height: 400px;
+    width: 350px;
+  }
+  .welcome {
+    position: top absolute;
+    color: var(--colour-six);
+    left: 40%;
+    top: 30%;
+  }
+  .input {
+    border: 1px solid var(--colour-three);
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background: none;
+    box-shadow: inset 10px 10px 6px -5px rgba(255,209,183,1);
+  }
+  label {
+    color: var(--colour-eight);
+    display: block;
+  }
+  .button {
+    background: var(--colour-six);
+    position: absolute;
+    width: 80px;
+    top: 70%;
+    right: 10%;
+    padding: 5px;
+    color: var(--colour-one);
+    border-radius: 10px;
+    border: none;
+  }
+  .button .sign {
+    color: #fff;
+    font-size: 15px;
+  }
+  .back {
+    position: absolute;
+    top: 44%;
+    left: 56%;
+    font-size: 20px;
+  }
+  .log {
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    font-size: 14px; 
+  }
+  .acc {
+    position: absolute;
+    top: 62%;
+    left: 56%;
+    font-size: 15px;
+  }
+  .customer {
+    position: absolute;
+    top: 72%;
+    left: 56%;
+    color: var(--colour-five);
+    background: var(--colour-four);
+    border-radius: 5px;
+    border: none;
+  }
+  .res {
+    position: absolute;
+    top: 72%;
+    left: 76%;
+    color: var(--colour-five);
+    background: var(--colour-four);
+    border-radius: 5px;
+    border: none;
+  }
+  h3 {
+    font-size: 14px;
+    color: var(--colour-five);
+    padding:5px;
+}
